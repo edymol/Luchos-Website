@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://kit.fontawesome.com/a568dc2190.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet"/>
+        <title>Lucho's BBQ</title>
+    </head>
+    <body>
+       <header>
+           <nav>
+               <div class="row">
+                   <img src="resources/css/images/Logo.jpg" alt="Lucho's BBQ Food & Grill Logo" class="logo">
+                   <ul class="main-nav" id="icon-increase">
+                       <li><a href="#">Entrega a domicilio</a></li>
+                       <li><a href="#">Reservaciones</a></li>
+                       <li><a href="#">Nuestro Local</a></li>
+<!--                       <li><a href="#">Registrate</a></li>-->
+                   
+                   </ul>
+               
+               </div>
+           
+           </nav>
+           <div class="hero-text-box">
+               <h1>Lucho's BBQ<br> Food &amp; Grill </h1>
+               <a class="btn btn-full" href="#">Estoy hambriento</a>
+               <a class="btn btn-ghost" href="#">Muestrame mas</a>
+           </div>
+            
+        
+        </header>
+        
+        <section class="section-features" id="icon-increase" onmouseover="iconIncrease()" onmouseout="iconNormal()">
+            <div class="row">
+                <h2>Come de todo y de lo mejor</h2>
+                <p class="long-copy">
+                    
+                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise! 
+                </p>
+            
+            </div>
+              <div class="row">
+                <div class="col span-1-of-4 box">
+                  <i class="fas fa-calendar-alt icon-main"></i>
+                  <h3>Todos los dias del año</h3>
+                  <p>
+                      
+                      Never cook again! We really mean that. Our subscription plans
+                      include up to 365 days/year coverage. You can also choose to order
+                      more flexibly if that's your style.
+
+                  </p>
+                </div>
+                    <div class="col span-1-of-4 box">
+                      <i class="fas fa-clock icon-main"></i>
+                      <h3>Esperas cortas</h3>
+                      <p>
+                        You're only twenty minutes away from your delicious and super
+                        healthy meals delivered right to your home. We work with the best
+                        chefs in each town to ensure that you're 100% happy.
+                      </p>
+                    </div>
+                  
+                    <div class="col span-1-of-4 box">
+                      <i class="fas fa-greater-than icon-main"></i>
+                      <h3>Calidad 100%</h3>
+                      <p>
+                        All our vegetables are fresh, organic and local. Animals are raised
+                        without added hormones or antibiotics. Good for your health, the
+                        environment, and it also tastes better!
+                      </p>
+                    </div>
+                    <div class="col span-1-of-4 box">
+                      <i class="fas fa-shopping-cart icon-main"></i>
+                      <h3>Facil de ordenar</h3>
+                      <p>
+                        We don't limit your creativity, which means you can order whatever
+                        you feel like. You can also choose from our menu containing over 100
+                        delicious meals. It's up to you!
+                      </p>
+                    </div>
+                  </div>
+                
+            
+            <!--
+            <script>
+                function iconIncrease(){
+                    document.getElementById("icon-increase").firstElementChild.firstElementChild.style.fontSize = 200%;
+                }
+                
+                function iconNormal(){
+                    document.getElementById("icon-increase").firstElementChild.firstElementChild.style.fontSize = 200%;
+            </script>
+-->
+        </section>
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/alitas-papas.jpg" alt="Alitas con papas">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/BBQ-alitas.jpg" alt="BBQ alitas">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/Biste.jpg" alt="Bistec con ensalada">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/Hamburger.jpg" alt="Deliciosa hamburguesa">                    
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/quesadilla.jpg" alt="Quesadillas">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/Para%20llevar.jpg" alt="Para llevar">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/steak-shimp.jpg" alt="Steak">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="resources/images/tacos.jpg" alt="Tacos">                    
+                    </figure>
+                </li>
+            </ul>
+        
+        </section>
+        <section class="section-steps">
+            <div class="row">
+                <h2>Reservaciones</h2>
+            </div>
+            <div class="row">
+                <div class="col span 1-of-2">
+                    <img src="resources/css/images/Logo.jpg" alt="Lucho's BBQ Food & Grill Logo" class="logo1" class="app-screen">
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="works-steps">
+                        <div>1</div>
+                        <p>Reservaciones faciles</p>
+                    </div>
+                    <div class="works-steps">
+                        <div>2</div>
+                        <p>Solamente llamanos</p>
+                    </div>
+                    <div class="works-steps">
+                        <div>3</div>
+                        <p>Dinos para cuantas personas</p>
+                    </div>
+<!--                    <a href="#" class="btn-app"> <img src="resources/images/download-app-store.png" alt="app-store bottom"></a><a href="#" class="btn-app"> <img src="resources/images/download-app-android.png" alt="Google play bottom"></a>-->
+                    
+                </div>
+            </div>
+        </section>
+        <section class="section-cities">
+            <div class="row">
+                <h2>Nuestro Local</h2>
+            </div>
+            <div class="row">
+                <div class="local-limon box">
+                    <img src="resources/images/owner.jpg" width="300px" height="300px" alt="Owner Cooking" class="owner">
+                    <h3>Limon Indanza</h3>
+                    <div class="city-feature">
+                        <i class="fas fa-users icon-feature"></i>
+                        Muchos clientes felices
+                    </div>
+                    <div class="city-feature">
+                        <i class="fas fa-star icon-feature"></i>
+                        El mejor Chef
+                    </div>
+                    <div class="city-feature">
+                        <i class="fab fa-facebook icon-feature"></i>
+                        <a href="https://www.facebook.com/luchoq8">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu-order">
+            <div class="row">
+                <h2>Nuestro Menu</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="menu-box">
+                        <div>
+                            <h3>Menu Principal</h3>
+                            <p class="meals-menu">Nuestras especialidades</p>
+                            <p class="meals-menu-main"><span>Platos Fuertes</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fas fa-check icon-small"></i>Pechuga de pollo a la grill $6</li>
+                                <li><i class="fas fa-check icon-small"></i>Camarones a la grill $8</li>
+                                <li><i class="fas fa-check icon-small"></i>Hamburguesas $5</li>
+                                <li><i class="fas fa-check icon-small"></i>Nachitos $5-$7</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sigue aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="menu-box">
+                        <div>
+                            <h3>Mas de nuestro menu</h3>
+                            <p class="meals-menu">Mas especialidades</p>
+                            <p class="meals-menu-main"><span>Platos Fuertes</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                               <li><i class="fas fa-check icon-small"></i>Quesadillas $6</li>
+                                <li><i class="fas fa-check icon-small"></i>Lomo fino $8</li>
+                                <li><i class="fas fa-check icon-small"></i>Churrasco americado $8</li>
+                                <li><i class="fas fa-check icon-small"></i>Parrilladas especiales $10</li>
+                                <li class="cortes"><i class="fas fa-check cortes-icon"></i>Especial de cortes<br><span>$10-$15</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sigue aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="menu-box">
+                        <div>
+                            <h3>Bebidas</h3>
+                            <p class="meals-menu">Bebibas frias y calientes</p>
+                            <p class="meals-menu-main"><span>Refrescantes</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fas fa-check  icon-small"></i>Cervezas</li>
+                                <li><i class="fas fa-check  icon-small"></i>Jugos naturales</li>
+                                <li><i class="fas fa-check  icon-small"></i>Gaseaosas</li>
+                                <li><i class="fas fa-check  icon-small"></i>Bebidas calientes</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sigue aqui</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-form">
+            <div class="row">
+                <h2>Dinos lo que piensas</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Nombre" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">Como supo de Nosotros</label>
+                    </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Amigos</option>
+                                <option value="internet">Inernet</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="otras">Otras</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="ofertas">Ofertas</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="ofertas" id="ofertas" checked> Me gustaria
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Sugerencias</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="tu sugerancia"></textarea>
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">Entrega a Domicilio</a></li>
+                        <li><a href="#">Reservaciones</a></li>
+                        <li><a href="#">Nuestro Local</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="icons-media">
+                        <li><a href="#"><i class="fab fa-facebook-messenger fb-mess"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square fb-icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2020
+                </p>
+            </div>
+        </footer>
+        
+        </body>
+
+
+</html>
+

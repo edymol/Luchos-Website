@@ -1,0 +1,592 @@
+/*#e67e22*/
+
+/*------------------------BASIC SETUP
+--------------------------BASIC SETUP*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #e7edf2;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*------------------------REUSABLE CODE
+--------------------------REUSABLE CODE*/
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+.logo{
+    max-height: 100%;
+}
+
+/*-------------------HEADING----------*/
+h1,
+h2,
+H3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    border-left: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-left: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box p {
+    font-size: 100%;
+    line-height: 145%;
+    text-align:justify;
+}
+
+/*---------------------ICONS-----------*/
+
+.icon-main {
+    color: #e67e22;
+    font-size: 80px;
+    padding: 30px;
+}
+
+.icon-feature {
+    color: #e67e22;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.icon-small {
+    font-size: 60%;
+    color: #e67e22;
+    margin-right: 10px;
+}
+
+.cortes-icon {
+    font-size: 110%;
+    color: #e67e22;
+    margin-right: 10px;
+}
+
+
+/*________________PARAGRAPS---------*/
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%
+}
+
+/*-----------------------LINKS------------------------------------------*/
+
+a:link,
+a:active {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color; 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+     border-bottom: 1px solid transparent;
+    
+    
+}
+
+/*-----------------------BUTTOMS------------------------------------------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+        
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #e67e22;
+    border:1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border:1px solid #e67e22;
+    color: #e67e22;    
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+   background-color: #cf6d17; 
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    border:1px solid #e67e22;
+    
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:1px solid #cf6d17;
+    color: #fff;    
+}
+
+/*------------------------Header starts here
+--------------------------Header starts here*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/lucho-burger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    letter-spacing: 1.5px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/*------------------FEATURES---------------*/
+
+.section-features. long-copy {
+    margin-bottom: 30;
+}
+
+/*-----------------MEALS---------------*/
+
+.section-meals {
+    padding: 0;
+}
+.meas-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+     overflow: hidden;
+    background-color: black;
+}
+
+
+.meal-photo img{     /* this is to change interaction in picture for web*/
+    opacity: 0.5;
+    width: 100%;
+    height: 400px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03); /* the second portion of interaction to light it up*/
+}
+
+/*-------------------RESERVACIONES------------*/
+
+.logo1 {
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-top: px;
+    margin-right: 100px;
+}
+
+.section-steps {
+    background-color: #e8e8e8;
+}
+
+.step-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+    
+}
+
+.step-box:last-child {
+    padding: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 80%;
+}
+
+.works-steps {
+    margin-bottom: 90px;
+}
+
+.works-steps:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-steps div {    /*this is to make the circle around numbers*/
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+    
+}
+
+.btn-app:link,
+.btn-app:visitted {
+    border: 0;
+}
+
+
+/*-----------------------CITY------------------------*/
+
+.box img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+    float: left;
+    
+    
+}
+
+.section-cities {
+    text-align: justify;
+
+}
+
+.city-feature{
+    word-spacing: 10px;
+    margin: 3%;
+    margin-top: 10px;
+}
+
+.owner {
+    margin-right: 120px;
+}
+.local-limon h3 {
+    margin-left: 475px;
+    margin-bottom: 3%;
+
+}
+    
+/*
+.btn-app img {     for the download btns if ever an app is created
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+*/
+/*----------------------CODE TO TRY FOR OTHER EFFECTS----------------*/
+
+/*
+.section-class {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.83)), url(image location.jgp);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+ 
+vertical-align: middle; for text to align with text
+    
+    THIS WILL FIX THE IMAGE ON THE BACKGROND IN A DARKER BACKGROUND WITH LIGHT FONT
+}
+*/
+
+/*---------------------------MENU ORDER-----------------------------*/
+
+.menu-order {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/steak-back.jpg);
+    background-size: cover;
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+}
+
+.menu-order h2{
+    color: #fff;
+}
+
+.menu-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.menu-box div {
+    padding: 15px;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.menu-box div:first-child {
+    background-color: #fcfcfc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.menu-box div:last-child {
+    text-align: center;
+}
+
+
+.meals-menu {
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #e67e22;
+}
+
+.meals-manu-main {
+    font-size: 80%;
+    
+}
+
+.cortes {
+    font-size: 120%;
+    font-weight: 400;
+    color: #e67e22;
+}
+
+.cortes span {
+    display: block;
+    font-size: 120%;
+    margin-left: 70px;
+}
+
+.cortes:hover {
+    color: red;
+    font-size: 150%;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.menu-box ul {
+    list-style: none;
+}
+
+.menu-box ul li {
+    padding: 5px 0;
+}
+
+/*--------------------------CONTACT FORM-------------------------*/
+
+.contact-form {
+    60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textares {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input(type=checkbox) {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;
+}
+    
+
+/*-------------------------FOOTER------------------------   */*/
+    
+footer {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/lucho-burger.jpg);
+    padding: 60px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.icons-media {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.icons-media li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+    
+.footer-nav li:last-child,
+.icons-media li:last-child {
+    margin-right: 0px;
+}
+    
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.icons-media li a:link,
+.icons-media li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd
+}
+
+.icons-media li a:link,
+.icons-media li a:visited {
+    font-size: 130%;
+}
+
+.fb-mess:hover {
+    color: #3b5998;
+}
+
+.fb-icon:hover {
+    color: #3b5998;
+}
+
+footer p {
+    color: #888;
+    text-align-last: center;
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
