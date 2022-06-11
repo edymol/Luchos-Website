@@ -136,7 +136,7 @@ a:active {
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
-    transition: border-bottom 0.2s, color; 0.2s;
+    transition: [border-bottom:0.2s], [color: 0.2s];
 }
 
 a:hover,
@@ -252,7 +252,7 @@ header {
 
 /*------------------FEATURES---------------*/
 
-.section-features. long-copy {
+.section-features long-copy {
     margin-bottom: 30;
 }
 
@@ -484,7 +484,7 @@ vertical-align: middle; for text to align with text
 /*--------------------------CONTACT FORM-------------------------*/
 
 .contact-form {
-    60%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -502,7 +502,7 @@ textarea {
     height: 100px;
 }
 
-input(type=checkbox) {
+input [type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
